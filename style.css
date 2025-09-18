@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+  }
+  
+  #topbar {
+    background: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  #topbar button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  #topbar button:hover {
+    opacity: 0.8;
+  }
+  
+  #map {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+  }
+  
+  #map img {
+    width: 100%;
+    display: block;
+  }
+  
+  .house {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: gray;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    border: 2px solid white;
+  }
+  
+
+  .house.green { background-color: green; }
+  .house.red { background-color: red; }
+  .house.orange { background-color: orange; }
+  .house.gray { background-color: #cccccc; }
+
+  #families {
+    background: white;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  }
+  
+  .family {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .family button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .family button.green { background: lightgreen; }
+  .family button.red { background: lightcoral; }
+  .family button.selected {
+    border: 2px solid black;
+  }
+  
+  .logo {
+    width: 50px;
+    margin-bottom: 150;
+  }
+
+
+
+  #topBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #buttons button {
+    margin-left: 10px;
+  }
+  
+  #familiesBar {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .family {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+  
+  
